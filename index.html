@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header class="container">
+    <header class="container" id="home">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-xl bg-white" aria-label="navbar example">
             <div class="container-fluid fixed-top mt-2">
@@ -29,10 +29,10 @@
                 <div class="collapse navbar-collapse" id="Examples">
                     <ul class="navbar-nav mx-auto mb-2 mb-xl-0  ">
                         <li class="nav-item ms-3">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link active" href="#">Courses</a>
+                            <a class="nav-link active" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item ms-3">
                             <a class="nav-link active" href="#">Deals</a>
@@ -111,7 +111,8 @@
     </header>
 
     <main>
-        <section class="container my-5">
+        <!-- Our Courses -->
+        <section class="container my-5" id=courses>
             <div class="text-center">
                 <h2>Discover Our Popular
                     Courses</h2>
@@ -121,8 +122,8 @@
             <div class="container overflow-hidden my-5">
 
                 <div class="row g-2">
-                    <div class="col-md-6 col-lg-6 col-sm-12 col-12">
-                        <div class="border rounded d-flex  ">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="course-box border rounded d-flex ">
                             <img class="float-start" src="./images/course/course-1.png" alt="">
 
                             <div class="p-3">
@@ -136,10 +137,9 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-6 col-sm-12 col-12">
-                        <div class="border rounded d-flex">
-                            <img class="float-start" src="./images/course/course-2.png" height="200px" width="200px"
-                                alt="">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="course-box border rounded d-flex">
+                            <img class="float-start" src="./images/course/course-2.png" alt="">
 
                             <div class="p-3">
                                 <h5>Javascript Basic to advanced</h5>
@@ -152,10 +152,9 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-6 col-sm-12 col-12">
-                        <div class="border rounded d-flex ">
-                            <img class="float-start" src="./images/course/course-3.png" height="200px" width="200px"
-                                alt="">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="course-box border rounded d-flex ">
+                            <img class="float-start" src="./images/course/course-3.png" alt="">
 
                             <div class="p-3">
                                 <h5>Fullstack Web Development</h5>
@@ -168,8 +167,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-6 col-sm-12 col-12">
-                        <div class="border rounded d-flex">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="course-box border rounded d-flex">
                             <img class="float-start" src="./images/course/course-4.png" class="" alt="">
 
 
@@ -320,13 +319,13 @@
     <footer class="mb-0 bg-dark text-light text-center p-5">
         <h2>Pro Edu</h2>
         <small>
-            <p class="lh-sm">Office 50, Munzstr. 1-50, 47051 </p>
+            <p class="lh-1">Office 50, Munzstr. 1-50, 47051 </p>
         </small>
         <small>
-            <p class="lh-sm">Duisburg, Dusseldorf, Deutschland</p>
+            <p class="lh-1">Duisburg, Dusseldorf, Deutschland</p>
         </small>
         <small>
-            <p class="lh-sm">Privacy Policy | Terms of use </p>
+            <p class="lh-1">Privacy Policy | Terms of use </p>
         </small>
         <p>
             <small class="ms-2"><i class="fab fa-facebook"></i></small>
